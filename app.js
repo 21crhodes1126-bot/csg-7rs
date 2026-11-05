@@ -73,7 +73,7 @@
   function renderHome() {
     let left = 0;
     const segs = SEG.map((s) => { const st = stageOf(s.id); const h = `<div class="seg" data-stage="${s.id}" style="left:${px(left)}%;width:${s.w * 0.94}%"><span class="label">Stage ${st.num}</span><h3>${esc(st.name)}</h3><p>${esc(st.tagline)}</p><span class="weeks"><i>${esc(st.weeks)}</i><span>${st.gates.length === 1 ? "1 gate" : "2 gates"}</span></span></div>`; left += s.w; return h; }).join("");
-    const pins = GATES.map((g) => `<button class="gate-pin ${gateDone(g) ? "is-done" : ""}" data-key="${g.key}" data-title="${esc(g.title)}" style="left:${px(PIN[g.key])}%" aria-label="Gate ${g.num}: ${esc(g.title)}"><span class="tick" aria-hidden="true"></span>${g.num}</button>`).join("");
+    const pins = GATES.map((g) => `<button class="gate-pin ${gateDone(g) ? "is-done" : ""}" data-key="${g.key}" data-title="${esc(g.title)}" style="left:${px(PIN[g.key])}%" aria-label="Gate ${g.num}: ${esc(g.title)}">${g.num}</button>`).join("");
     const mobile = STAGES.map((st) => `<div class="stg"><h3>${esc(st.name)}</h3><span>${esc(st.weeks)}</span></div>${st.gates.map((n) => { const g = GATES[n - 1]; return `<a href="#${g.key}"><span class="n">${g.num}</span><span><b>${esc(g.title)}</b><small>${g.deliverables.length} things to have · ${esc(g.duration.mba)}</small></span><span class="arr">→</span></a>`; }).join("")}`).join("");
     const tile = (r) => `<a class="r" href="#${r.go}"><span class="w"><em>R</em>${esc(r.word.slice(1))}</span><span class="g">${esc(r.gloss)}</span></a>`;
     app.innerHTML = `
@@ -140,8 +140,9 @@
       ["exercises", "Exercises", g.exercises.length], ["tools", "Tools", g.learn.length],
     ];
     app.innerHTML = `
-      <div class="gate">
+      <div class="gate${store.get("side:collapsed") ? " is-collapsed" : ""}">
         <aside class="gate-side">
+          <button class="side-toggle" data-side aria-expanded="true" aria-label="Collapse the overview" title="Collapse the overview">‹</button>
           <div class="where rise"><b>Gate ${g.num} of 5</b><span>·</span><span>Stage ${st.num} · ${esc(st.name)}</span></div>
           <div class="titleblock rise d1"><div class="num">${g.num}</div><h1>${esc(g.title)}</h1></div>
           <p class="obj rise d2">${esc(g.objective)}</p>
@@ -182,9 +183,6 @@
                     <div class="form">${esc(d.form)}</div>
                     <p class="what">${esc(d.what)}</p>
                     <div class="good"><div class="t">What good looks like</div><ul>${d.good.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>
-                    <div class="example">${d.example
-                      ? `<a href="${esc(d.example.url)}" target="_blank" rel="noopener"><span class="ic" aria-hidden="true"></span>See a passing example · ${esc(d.example.title)} <span class="arr">↗</span></a>`
-                      : `<span class="todo"><span class="ic" aria-hidden="true"></span>Passing example: a redacted submission from a past engagement will be linked here.</span>`}</div>
                   </div>
                   <label class="check"><input type="checkbox" id="${g.key}-d${i}" ${done[i] ? "checked" : ""} aria-label="Mark ${esc(d.name)} complete"><span></span></label>
                 </div>`).join("")}
@@ -257,6 +255,19 @@
         pbtn.textContent = "Copy it from the box";
       }
     });
+    /* collapsible overview column */
+    const gateEl = app.querySelector(".gate"), sideBtn = app.querySelector("[data-side]");
+    function setSide(collapsed) {
+      gateEl.classList.toggle("is-collapsed", collapsed);
+      sideBtn.textContent = collapsed ? "›" : "‹";
+      sideBtn.setAttribute("aria-expanded", String(!collapsed));
+      const lbl = (collapsed ? "Expand" : "Collapse") + " the overview";
+      sideBtn.setAttribute("aria-label", lbl); sideBtn.setAttribute("title", lbl);
+      store.set("side:collapsed", collapsed);
+    }
+    setSide(!!store.get("side:collapsed"));
+    sideBtn.addEventListener("click", () => setSide(!gateEl.classList.contains("is-collapsed")));
+
     /* section nav: smooth scroll + scroll-spy */
     const links = [...app.querySelectorAll(".secnav a")];
     links.forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); document.getElementById(a.dataset.sec).scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "start" }); }));

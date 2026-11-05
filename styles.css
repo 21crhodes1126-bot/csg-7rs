@@ -143,7 +143,6 @@ main { min-height: calc(100vh - var(--head-h)); }
 .gate-pin.is-on::after, .gate-pin:hover::after { color: var(--ink); font-weight: 600; }
 .gate-pin.is-done { border-color: var(--blue); }
 .gate-pin.is-done::before { content: ""; position: absolute; top: -3px; right: -3px; width: 12px; height: 12px; border-radius: 50%; background: var(--blue); border: 2px solid var(--bg); }
-.gate-pin .tick { position: absolute; top: -13px; width: 1px; height: 13px; background: var(--rule-strong); }
 .gate-pin[data-key="gate5"]::after { left: auto; right: -6px; transform: none; text-align: right; }
 
 /* Preview drawer */
@@ -155,6 +154,7 @@ main { min-height: calc(100vh - var(--head-h)); }
 .preview .k .st b { color: var(--ink); font-weight: 600; }
 .preview h2 { font-family: var(--serif); font-size: clamp(28px, 3vw, 40px); line-height: 1.05; margin-top: 12px; }
 .preview .obj { color: var(--ink-2); margin-top: 12px; max-width: 48ch; }
+.preview .dl li.t { display: block; }
 .preview .dl .t { font-size: 12.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
 .preview .dl li { display: grid; grid-template-columns: 24px 1fr; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 15px; font-weight: 500; }
 .preview .dl li:last-child { border-bottom: 0; }
@@ -439,14 +439,6 @@ main { min-height: calc(100vh - var(--head-h)); }
 .seven-row .r::after { content: "→"; position: absolute; right: 16px; top: 18px; color: var(--blue-text); font-size: 16px; opacity: 0; transition: opacity .15s, transform .15s; transform: translateX(-4px); }
 .seven-row .r:hover::after { opacity: 1; transform: none; }
 
-/* Example slot under each deliverable */
-.ledger .example { margin-top: 14px; font-size: 13.5px; }
-.ledger .example a, .ledger .example .todo { display: inline-flex; align-items: center; gap: 9px; padding: 8px 12px; border-radius: 2px; }
-.ledger .example a { border: 1px solid var(--blue); color: var(--blue-text); font-weight: 600; }
-.ledger .example a:hover { background: var(--blue-soft); }
-.ledger .example .todo { border: 1px dashed var(--rule-strong); color: var(--ink-3); }
-.ledger .example .ic { width: 11px; height: 14px; border: 1.5px solid currentColor; border-radius: 1px; position: relative; flex: none; }
-.ledger .example .ic::after { content: ""; position: absolute; left: 2px; right: 2px; top: 4px; height: 1.5px; background: currentColor; box-shadow: 0 3px 0 currentColor; }
 
 /* ============ Additions for the Nov 2026 content revision ============ */
 
@@ -508,3 +500,26 @@ main { min-height: calc(100vh - var(--head-h)); }
 
 /* The sidebar is shorter now that values moved to How it works */
 .gate-side { gap: 20px; }
+
+/* ---- Collapsible overview column on gate pages ---- */
+.gate-side { position: relative; }
+.side-toggle { position: absolute; top: -4px; right: 30px; width: 28px; height: 28px; border: 1px solid var(--rule-strong); border-radius: 50%; display: grid; place-items: center; background: #fff; color: var(--ink-3); font-size: 16px; line-height: 1; transition: border-color .15s, color .15s; z-index: 2; }
+.side-toggle:hover { border-color: var(--blue); color: var(--blue-text); }
+.gate.is-collapsed { grid-template-columns: 60px minmax(0, 1fr); }
+.gate.is-collapsed .gate-side > *:not(.side-toggle) { display: none; }
+.gate.is-collapsed .side-toggle { right: 14px; }
+.gate.is-collapsed .gate-main { max-width: 900px; margin-inline: auto; }
+@media (max-width: 900px) { .side-toggle { display: none; } .gate.is-collapsed { grid-template-columns: 1fr; } .gate.is-collapsed .gate-side > * { display: revert; } }
+
+/* ---- "Gates" label and hover descriptions in the header ---- */
+.stepper-label { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin-right: 12px; white-space: nowrap; }
+.stepper-items { display: flex; align-items: center; height: var(--head-h); }
+.links a { position: relative; }
+.links a[data-tip]::after { content: attr(data-tip); position: absolute; top: calc(100% + 2px); left: 50%; transform: translate(-50%, -4px); white-space: nowrap; padding: 5px 10px; background: var(--ink); color: #fff; font-size: 12px; font-weight: 500; letter-spacing: 0; border-radius: 2px; opacity: 0; pointer-events: none; transition: opacity .15s, transform .15s; z-index: 5; }
+.links a[data-tip]::before { content: ""; position: absolute; top: calc(100% - 2px); left: 50%; width: 8px; height: 8px; background: var(--ink); transform: translateX(-50%) rotate(45deg); opacity: 0; transition: opacity .15s; z-index: 5; }
+.links a[data-tip]:hover::after, .links a[data-tip]:focus-visible::after { opacity: 1; transform: translate(-50%, 0); }
+.links a[data-tip]:hover::before, .links a[data-tip]:focus-visible::before { opacity: 1; }
+.links a:last-child[data-tip]::after { left: auto; right: 0; transform: translate(0, -4px); }
+.links a:last-child[data-tip]:hover::after, .links a:last-child[data-tip]:focus-visible::after { transform: translate(0, 0); }
+.links a:last-child[data-tip]::before { left: auto; right: 26px; transform: rotate(45deg); }
+@media (max-width: 1040px) { .stepper-label { display: none; } }

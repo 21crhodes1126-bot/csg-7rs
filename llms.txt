@@ -1,0 +1,425 @@
+# The 7Rs — the engagement model of Cougar Strategy Group (BYU Marriott School of Business)
+
+> Every CSG engagement runs the same arc. Four stages of work, with a gate between each one. A gate is a checkpoint rather than an exam. You show your faculty advisor what the team has worked out, talk it through for twenty to thirty minutes, and together decide whether the next stage can safely start.
+
+This is the complete plain-text version of https://21crhodes1126-bot.github.io/csg-7rs/. The site itself renders through JavaScript, so this file is the reliable source for any tool reading the model. It covers all seven R's, all five gates, what a team should have at each one, the questions a review may cover, the exercises on offer, and the reference library.
+
+Cougar Strategy Group (CSG) is a student-led consulting group at BYU's Marriott School of Business. MBA students in MBA 684B and undergraduates in STRAT 421 work on real, paying client engagements. The 7Rs is the model every engagement follows. It was created by faculty advisor Paul Godfrey; this revision was proposed by the 7Rs Team in Fall 2026.
+
+## What the seven R's are
+
+Four of the R's are stages, and every project moves through them in order. The other three are habits that run through all four. The five gates are the checkpoints between the stages.
+
+Four stages, run in order:
+- **Recognize** — Define the real problem.
+- **Research** — Plan, then find the answer.
+- **Recommend** — Build a plan the client can run.
+- **Retain** — Deliver it. Keep the client.
+
+Three habits, running through all four stages:
+- **Roles** — Everyone owns a part.
+- **Relationship** — No client surprises.
+- **Refine** — The story sharpens every gate.
+
+## The arc at a glance
+
+Roughly 12 to 15 weeks end to end. Stage 1 is the one that cannot slip; everything after it moves when the problem is not defined.
+
+**Stage 1 · Recognize** (3–4 weeks) — Define the real problem
+  - Gate 1: Define the problem — Leave with a problem the client agrees with, a first answer, and a map of what to prove.
+**Stage 2 · Research** (5 weeks) — Plan, then prove
+  - Gate 2: Plan the work — Decide what you will prove, what would disprove it, who owns each test, and what the deck will say.
+  - Gate 3: Find the answer — Run the tests, decide which hypotheses survive, and say what it all means in one page.
+**Stage 3 · Recommend** (2 weeks) — Build the path forward
+  - Gate 4: Build the recommendation — Turn findings into real options, choose with the client, and make the chosen path runnable.
+**Stage 4 · Retain** (2 weeks) — Deliver and stay
+  - Gate 5: Deliver and stay — Present so the client acts, leave them equipped to continue, and open the door to the next engagement.
+
+## The five gates
+
+A gate is a checkpoint between two stages, not an exam. A team shows its faculty advisor (Paul Godfrey or Troy Nielson) what it has worked out, talks it through for twenty to thirty minutes, and together they decide whether the next stage can safely start. There is no checklist to submit. How a team shows its work is up to the team: one document that covers everything well beats three that do not.
+
+### Gate 1: Define the problem
+
+- Closes Stage 1 (Recognize)
+- Time: MBA 3 weeks, EMBA 4 weeks
+- Objective: Leave with a problem the client agrees with, a first answer, and a map of what to prove.
+
+**Purpose.** Clients hire us with a symptom in hand. Sales are flat, turnover is up, a competitor keeps winning deals. Gate 1 is where you turn that into a problem worth solving. Everything downstream inherits what you decide here, so a week spent sharpening the question saves a month of research nobody can use.
+
+**What this gate settles:**
+- What the real problem is, in words the client agrees with
+- What it is costing them, in dollars, hours or customers
+- Which pieces of it you can go and test
+- A first answer you expect to be wrong
+
+**What the team should have:**
+
+1. **Problem statement** (suggested form: One page). The question in one sentence. What it is costing the client, what is in and out of scope, the constraints you have to respect, and who makes the decision.
+   A good one: Someone outside the team could read it and say what "solved" means. The client has read it and agreed, or you have noted what they changed. It names a cause or a decision, not a symptom.
+2. **SCQA with a day-one answer** (suggested form: One slide). Situation, Complication, Question, Answer. The Question matches your problem statement word for word, and the Answer is your best guess today.
+   A good one: It fits on one slide in the CSG template. The Answer is a real claim that could turn out to be wrong. You can say what evidence would change it.
+3. **Issue tree with hypotheses** (suggested form: One page, three levels or more). The question broken into branches that do not overlap and together cover it, ending in things a person could go and test.
+   A good one: Each end branch is a question one person could answer. Branches do not overlap and nothing obvious is missing. The branches you plan to test first are marked.
+
+**Questions the review may cover.** These are a self-check rather than a fixed rubric; an advisor may ask these or others.
+- Is this the problem, or a symptom of it?
+- What did the sponsor say when you read them the problem statement?
+- What would convince you your day-one answer is wrong?
+
+**Exercises that help.** None are required. They are a menu, tagged by the kind of project.
+- Interview the sponsor and two people who live with the problem (Every project). Ask for the story, not the diagnosis. Map who owns the problem, who feels it, and who decides.
+- Run 5 Whys on the headline symptom (Every project). Start with the client's own words. Stop where the answer becomes something they could actually change.
+- Write three competing problem statements, keep one (Every project). A cost problem, a growth problem, a capability problem. Two sentences on why the other two lose.
+- Size the problem (Every project). Dollars, hours or customers per year. Order of magnitude is fine. Show your assumptions.
+- List the assumptions (Every project). Two lists. What the client assumes about the problem, and what would have to be true for this to be the problem at all.
+- Build a one-page company snapshot (Established companies). History, what they sell and to whom, recent moves, financial health, who runs the relevant unit.
+- Scan the industry (Analytical and market projects). Five Forces, a PEST pass, the closest competitors. Keep only what changes how you see the problem.
+- Talk to customers (Startups and open-ended projects). Five to eight short conversations about what people did, not what they say they would do.
+- Walk the process (Operations and service projects). A site visit, or half a day beside the people doing the work. Problems look different on the floor.
+- Draft the final slide headline today (Every project). It will be wrong. Writing it anyway shows you what you would need to know to make it right.
+
+**Most relevant reading:** Are You Solving the Right Problems? (Harvard Business Review); Issue Trees: What Are They and How Do You Use Them? (StrategyU); The Minto Pyramid Principle (Barbara Minto); User Interviews 101 (Nielsen Norman Group).
+
+### Gate 2: Plan the work
+
+- Closes Stage 2 (Research)
+- Time: MBA 2 weeks, EMBA 2 weeks
+- Objective: Decide what you will prove, what would disprove it, who owns each test, and what the deck will say.
+
+**Purpose.** Research without a plan produces a pile of facts and a scramble at the end to make them mean something. Gate 2 is where you decide what you are trying to prove and how you would know if you were wrong, before anyone collects anything. Teams that plan well finish the research stage early.
+
+**What this gate settles:**
+- Which hypotheses are worth testing, and which branches you dropped
+- What evidence would prove or kill each one
+- Who owns each test, and when it is due
+- What the final deck will probably argue
+
+**What the team should have:**
+
+1. **Hypothesis and test plan** (suggested form: One page or a table). For every hypothesis you kept: the data you need, the test you will run, what result supports it, what result kills it, who owns it, and the date.
+   A good one: Every hypothesis has a written condition that would refute it. There are no more tests than the team can run in the time. Requests for client data have already gone out.
+2. **Ghost deck** (suggested form: 10–15 slides, titles and sketches). The final presentation drafted now, as slide titles in order with hand-sketched charts. This is the deck the client sees at every check-in from here on.
+   A good one: Reading only the titles tells the whole argument. Every slide traces back to a hypothesis or to the SCQA. The client has seen it and you recorded their reaction.
+3. **Workplan** (suggested form: One page). The timeline to Gate 3, who owns which workstream, the client meeting cadence, and how the team will work.
+   A good one: Every team member owns at least one hypothesis. The findings preview with the client is booked. Today's Answer is updated and dated.
+
+**Questions the review may cover.** These are a self-check rather than a fixed rubric; an advisor may ask these or others.
+- Which hypothesis, if it fails, changes your recommendation the most?
+- Read me your slide titles. Does the argument still hold if one of them turns out false?
+- What have you asked the client for, and when did you ask?
+
+**Exercises that help.** None are required. They are a menu, tagged by the kind of project.
+- Prune the issue tree to what moves the answer (Every project). Rank the end branches by how much they would change the recommendation and how hard they are to test. Keep a handful.
+- Write the refutation for every hypothesis (Every project). If you cannot name data that would make you drop it, you have a belief rather than a hypothesis.
+- Match the method to the question (Every project). Interviews answer why and how. Surveys answer how many. Financials and operating data answer how much. Pick the cheapest method that can settle the question.
+- Sketch every exhibit with made-up numbers (Every project). Label the axes. If you cannot draw the chart, you do not yet know what data you need.
+- Inventory the data (Every project). What the client already has, what is public, what you have to create. Request the first group this week.
+- Read the titles aloud, in order (Every project). Paste every ghost deck title into one document and read it out. If it does not sound like an argument, reorder before you collect anything.
+- Draft and pilot the interview guide (Projects with interviews). Eight to twelve open questions tied to specific hypotheses. Pilot it once, then cut what produced nothing.
+- Check every survey question (Projects with surveys). One idea per question, no leading language, answer options that cover the range. Decide your sample before you write more.
+- Mock up the model (Quantitative projects). Build the spreadsheet or regression with placeholder data, so you know exactly which fields to ask for.
+- Run a pre-mortem on the plan (Every project). It is the final presentation and the project failed. Everyone writes why. Fix the top two risks in the workplan.
+
+**Most relevant reading:** Problem Structuring and Hypothesis-Driven Consulting (Think Insights); How to Write Slide Action Titles (Slideworks); Writing Survey Questions (Pew Research Center); Performing a Project Premortem (Harvard Business Review).
+
+### Gate 3: Find the answer
+
+- Closes Stage 2 (Research)
+- Time: MBA 3 weeks, EMBA 3 weeks
+- Objective: Run the tests, decide which hypotheses survive, and say what it all means in one page.
+
+**Purpose.** This is the longest stretch of real work in the engagement, and the easiest place to lose the thread. Teams collect more than they can use and grow attached to one striking chart. Gate 3 brings it back to a single question: what do you know now that you did not know three weeks ago?
+
+**What this gate settles:**
+- Which hypotheses survived the evidence, and which did not
+- What the surviving findings add up to
+- How your working answer has changed since Gate 2
+- What the data cannot tell you
+
+**What the team should have:**
+
+1. **Findings summary** (suggested form: One page). Which hypotheses held up, what they collectively say about the problem, and how Today's Answer has moved. Include one finding that surprised you.
+   A good one: Every verdict points back to the test that produced it. The "so what" is one paragraph a sponsor could repeat from memory. The limits of the data are stated plainly.
+2. **Evidence deck** (suggested form: Draft of the final deck). The ghost deck with real exhibits in place. Titles rewritten to match what the data actually showed, sources on every slide, refuted material moved to the appendix.
+   A good one: The titles still read as one argument when read alone. Every chart has a source and makes a single point. Someone other than the author has checked each conclusion.
+
+**Questions the review may cover.** These are a self-check rather than a fixed rubric; an advisor may ask these or others.
+- Which hypothesis did the evidence kill, and what did you do with that slide?
+- Pick any chart and walk me through it. What else could explain that pattern?
+- What surprised you?
+
+**Exercises that help.** None are required. They are a menu, tagged by the kind of project.
+- Set up master files and naming (Every project). One folder, one master copy, versioned file names. Thirty minutes now saves a day in week eleven.
+- Sanity-check every key number three ways (Every project). Order of magnitude, break-even, and a second source. Cheap checks catch most errors. Write them in the appendix.
+- Write the one sentence each chart should leave behind (Every project). That sentence becomes the slide title. If you cannot write it, the chart does not belong in the deck.
+- Give someone the devil's advocate hour (Every project). One teammate spends an hour arguing the conclusions are wrong. Answer the strongest objections in the deck or list them as limits.
+- Second-reader every conclusion (Every project). Nothing goes in the deck until someone who did not produce it has checked the logic and the source.
+- Preview the findings with the client (Every project). Three or four slides, framed as "here is what we are seeing, what are we missing?" Record what they say.
+- Date a new version of Today's Answer (Every project). Keep the earlier versions visible so the client can watch the thinking evolve.
+- Code the interviews by hypothesis (Projects with interviews). Tag and count. A pattern in six of eight conversations is a finding. One vivid quote is not.
+
+**Most relevant reading:** Bulletproof Problem Solving (Conn and McLean); Storytelling with Data (Storytelling with Data); User Interviews 101 (Nielsen Norman Group).
+
+### Gate 4: Build the recommendation
+
+- Closes Stage 3 (Recommend)
+- Time: MBA 2 weeks, EMBA 2 weeks
+- Objective: Turn findings into real options, choose with the client, and make the chosen path runnable.
+
+**Purpose.** A finding is not a recommendation. The client does not need to hear that onboarding takes forty days. They need to know what to do about it, in what order, and what it will take. Gate 4 turns evidence into a decision they can make and a plan they can start on Monday.
+
+**What this gate settles:**
+- The options worth considering, and why the others were dropped
+- Which one the client chose, and on what evidence
+- What happens first, who owns it, and what it costs
+- What could go wrong, and whether this survives six months
+
+**What the team should have:**
+
+1. **Options matrix** (suggested form: One slide plus backup). Four to six genuinely different options placed on impact against the client's capacity to do them, with the evidence behind each placement.
+   A good one: Options differ in kind, not by degree. Each placement cites a finding from Gate 3. The two or three you took to the client are marked, with their choice.
+2. **Final deck** (suggested form: Client-ready). An answer-first summary, the recommendations with sequence, resources and risks, and an appendix that lets the client read the work without you in the room.
+   A good one: Problem to proof to prescription reads straight through without narration. Each recommendation says what to do, who does it, and by when. Another CSG team has reviewed it and you acted on the feedback.
+3. **Implementation and risk plan** (suggested form: Two or three slides). The first ninety days, who champions it, budget and headcount, two or three measures, the main risks, and whether each recommendation survives after you leave.
+   A good one: A named client role owns each recommendation. The measures are few, specific and already trackable. Anything unlikely to last six months is flagged, not hidden.
+
+**Questions the review may cover.** These are a self-check rather than a fixed rubric; an advisor may ask these or others.
+- Pick a recommendation. Which finding does it rest on?
+- What should the client do first, and why that first?
+- Who inside the client owns this after you leave?
+
+**Exercises that help.** None are required. They are a menu, tagged by the kind of project.
+- Brainstorm wide before judging anything (Every project). Forty-five minutes with IDEO's rules. Defer judgment, go for volume, then cluster into five or six options that truly differ.
+- Draw the lines from findings to options (Every project). Findings on the left, options on the right, lines between. Options with no line get cut or parked.
+- Place the options on impact against capacity (Every project). Will it solve the problem, and can this organisation actually do it? Argue the placements as a team before showing the client.
+- Pre-mortem the leading option (Every project). A year from now it failed. Why? The strongest answers become your risk slide.
+- Check sponsorship and sequence (Every project). Who has to say yes, who has to change what they do, and in what order you are asking for it.
+- Design two or three measures per recommendation (Every project). A baseline, a target, and a date to check. Say so if tracking it needs a system the client does not have.
+- Apply the six-month test (Every project). Does the client have the leader, skills, budget and systems to still be doing this in six months? Flag the ones where the honest answer is no.
+- Present to another CSG team (Every project). Ask them to say the recommendation back to you. If they cannot, the story is not finished.
+- Read the titles aloud one last time (Every project). Problem, proof, prescription, in that order, with no gaps.
+
+**Most relevant reading:** 7 Brainstorming Rules (IDEO U); Decision Matrix Analysis (MindTools); Leading Change: Why Transformation Efforts Fail (Harvard Business Review); The Balanced Scorecard (Harvard Business Review).
+
+### Gate 5: Deliver and stay
+
+- Closes Stage 4 (Retain)
+- Time: MBA 2 weeks, EMBA 2 weeks
+- Objective: Present so the client acts, leave them equipped to continue, and open the door to the next engagement.
+
+**Purpose.** Three months of work ride on one hour in a room. Gate 5 is where the client decides whether to act, so the job here is to be useful. That means a presentation the room can follow, a document that stands up without you, and a clear handoff of who does what next. It is also where the next engagement starts.
+
+**What this gate settles:**
+- That the decision-makers heard the recommendation and understood it
+- What the client does in the first ninety days, and who owns it
+- When CSG follows up, and who makes that call
+- What the next piece of work could be
+
+**What the team should have:**
+
+1. **Final presentation and leave-behind** (suggested form: Live deck plus standalone deck). The recommendation presented to the people who decide, plus a fuller deck with appendices that the client can read and circulate on their own.
+   A good one: You confirmed who would be in the room, and how senior, before the day. Someone outside the team read the leave-behind cold and could restate the recommendation. Both decks follow the CSG style guide and file naming.
+2. **Next-steps memo** (suggested form: One page). The implementation keys and timeline, the measures to watch, who follows up at ninety days, and a proposal for the next logical engagement.
+   A good one: The ninety-day follow-up has a date and an owner on both sides. The next project is specific enough for someone to scope it.
+3. **Close-out** (suggested form: Checklist with evidence). Testimonial and satisfaction survey requested, referrals recorded, thank-you book delivered, files archived, peer evaluations and reflections submitted.
+   A good one: Everything is in the team's Teams folder and nothing is in a personal drive. Each reflection names one thing the person would do differently.
+
+**Questions the review may cover.** These are a self-check rather than a fixed rubric; an advisor may ask these or others.
+- What did the sponsor say in the pre-wire, and what did you change?
+- If the client does only one thing from this deck, what should it be?
+- Who follows up in ninety days, and is it on their calendar?
+
+**Exercises that help.** None are required. They are a menu, tagged by the kind of project.
+- Pre-wire the sponsor two or three days out (Every project). Walk them through the summary and the options you rejected. Ask who else will be in the room and what they care about.
+- Rehearse the ten hardest questions (Every project). A teammate plays the skeptic. Write the answer and the slide number that backs each one.
+- Run a cold-read test on the leave-behind (Every project). Give it to someone outside the project. Two minutes to explain it back. Fix whatever they got wrong.
+- Choose the thank-you book and sign the card (Every project). Pick something that fits the client or the problem. Everyone signs. Deliver it at the final presentation.
+- Script the asks (Every project). "Would you write two sentences about the work?" and "Who else should we be talking to?" Record the answers and any introductions offered.
+- Write the next-project one-pager (Every project). The problem, why now, rough scope, what CSG would deliver. Leave it with the sponsor.
+- Hold a one-hour retrospective (Every project). What worked, what did not, and what the next team should know. It feeds your reflections and the next version of this model.
+
+**Most relevant reading:** How to Give a Killer Presentation (Harvard Business Review); Structure Your Presentation Like a Story (Harvard Business Review); The Art of Giving and Receiving Advice (Harvard Business Review).
+
+## The three habits
+
+These are not stages. They run through all four stages, and a reviewer looks for evidence of each at every gate.
+
+### Roles — Team roles and responsibilities
+
+A good process does not rescue a team that has not decided who does what. CSG teams use five working roles. One person can hold two, and they can rotate, but every role needs a name beside it from the first week.
+
+Roles:
+- **Project Manager**: The workplan, the gate submissions and the stand-up. Keeps Today's Answer current.
+- **Client Relationship Manager**: The meeting cadence, the agenda, and the client's experience of the team.
+- **Deck Master**: The ghost deck and the story. Guards the template and the action titles.
+- **Data Guru**: Data requests, the master files, and the sanity checks.
+- **Devil's Advocate**: The questions nobody wants asked. Runs the challenge sessions at Gates 3 and 4.
+
+What a reviewer looks for:
+- Gate 1: Roles assigned, a standing meeting set, one team activity done, a short charter on how you will work.
+- Gate 2: Everyone owns at least one hypothesis and can say how it feeds the answer.
+- Gate 3: Work delivered on time, a second reader on every conclusion, and a challenge session held.
+- Gate 4: Each person can point to their contribution. Dissent is recorded rather than suppressed. Disagreeing and committing is a skill.
+- Gate 5: Peer evaluations, reflections and the retrospective are done.
+
+### Relationship — Trust-based client relationship
+
+The client should never be surprised by anything they hear at the end. Trust gets built in the weekly meeting, by showing the current deck every time, and by telling the client what you are seeing while they can still shape it.
+
+Weekly habits:
+- Open every meeting with Today's Answer, then status, then what you need from them.
+- Put a source on every slide. The client will check.
+- Listen to understand rather than to reply. Ask one more question than feels natural.
+- Know the client as a person: their background, what else is on their plate.
+- Say early that this could be the first of several engagements.
+
+What a reviewer looks for:
+- Gate 1: A weekly meeting with a standing agenda. The problem statement read aloud to the sponsor.
+- Gate 2: Ghost deck and workplan shared, their reaction recorded, data requests sent and chased politely.
+- Gate 3: Preliminary findings previewed before anything is final, and their view on what is missing.
+- Gate 4: Two or three options reviewed with the sponsor, and the final audience confirmed.
+- Gate 5: Pre-wire, presentation, follow-up date, testimonial, referral.
+
+### Refine — Refine the story and deliverable
+
+The deck is not something you make at the end. It is the running record of the team's thinking, started in week one as a ghost deck and sharpened at every gate. If the story cannot be told from the slide titles alone, it is not finished.
+
+Weekly habits:
+- Every title is a sentence with a point. "Overview" is not a title.
+- One idea per slide, one exhibit that proves it, a source line underneath.
+- Lead with the answer. The room can always ask for the backup.
+- Use the CSG template from the first draft, not the last.
+- Read the titles aloud in order before every client meeting.
+
+What a reviewer looks for:
+- Gate 1: SCQA on one slide, the day-one answer written down, the final headline drafted.
+- Gate 2: Ghost deck with action titles and sketched exhibits. The headline-only read passes.
+- Gate 3: Real exhibits in place, titles revised to match the evidence, refuted material in the appendix.
+- Gate 4: Problem, proof and prescription in an unbroken line. Reviewed by another team.
+- Gate 5: The leave-behind reads cold. Style guide and file naming followed.
+
+## How a gate review works
+
+What a gate is:
+- Gates sit where weak work would be expensive to carry forward. After the problem is defined, after the plan is set, after the analysis, after the recommendation, after delivery.
+- Each gate lists what your team should have worked out by then. How you show it is up to you. One document that covers it well beats three that do not.
+- What a good version looks like is written out for each item, and the questions a review might cover are published in advance.
+- The exercises are a menu. Pick the ones that suit your project and skip the rest.
+- There is no separate checklist. This is a guide to running the project, not a list of things to submit.
+
+Before:
+- Share the deliverables with your advisor at least a day ahead.
+- Decide who presents what. Anyone on the team should be able to answer for the whole.
+- Work through the gate's questions together. If you can all answer them, you are ready.
+
+During:
+- Twenty to thirty minutes. You walk through the deliverables and your advisor asks whether they hold up.
+- It is a working session. If a question exposes a gap, say so. Naming it counts in your favour.
+- You leave with one of three outcomes: carry on, carry on with specific fixes, or revise and come back. None of them is a grade.
+
+After:
+- Write down what changed and why. Today's Answer should be dated and visible to the client.
+- If you are revising, book the follow-up before you leave the room.
+- Start the next stage. Nothing waits for a formal kickoff.
+
+## Five rules of thumb
+
+- **Define before you research** — A week spent sharpening the question saves a month of analysis nobody can use.
+- **Prune before you plan** — A team of five can test six to eight hypotheses well in three weeks. Pick those and park the rest.
+- **Keep the hypothesis in front of you** — Start every working session by saying which hypothesis it serves. If the work serves none, stop.
+- **Let the findings change the story** — When the evidence contradicts the ghost deck, the deck is what changes.
+- **Show the client early and often** — Anything they see for the first time at the final presentation is a failure of the process, not of the work.
+
+## How CSG's values show up
+
+CSG has four values, each expressed through two behaviours. They are not decoration on this process. They are how the work gets judged, in your reviews and by the client.
+
+- **Christ-Centered** (Be teachable · Have integrity) — Ask for help early. Never present a number you have not checked yourself.
+- **Accountable** (Take ownership · Be transparent) — Every workstream has a name on it, and the client hears bad news from you first.
+- **People-Focused** (Collaborate · Practice empathy) — The quietest person on the team gets asked. The client's constraints are treated as real.
+- **Professional** (Be resourceful · Think strategically) — When the data is not there, find a proxy. When the answer is obvious, say so and move on.
+
+## Questions teams ask
+
+**Who reviews the gates?**
+Whichever faculty advisor is assigned to your engagement, Paul or Troy. They are also the first call when the team is stuck between gates.
+
+**What if our project does not fit a deliverable?**
+Say so before the gate rather than at it. Propose the equivalent that does fit, a decision tree in place of an issue tree for instance, and agree it with your advisor. The form can flex. What a reviewer needs to see cannot.
+
+**Do we have to do the exercises?**
+No. Use the project-type filter on each gate page, and skip anything that would not change your deliverables.
+
+**Can we work ahead?**
+Yes, as long as you do not skip a gate. Teams often start the ghost deck during Stage 1. What you cannot do is build Stage 3 analysis on a problem statement nobody has reviewed.
+
+**What if we are asked to revise?**
+You revise and come back, usually within a few days. Catching it at a gate costs far less than discovering it three weeks later.
+
+**Where do the documents live?**
+In your team's channel in Teams, under the folder structure you agreed at Gate 1, following CSG file naming. Never in a personal drive.
+
+## What changed from the July 2026 stage gate documents
+
+- Five gates with one set of numbers, matching across the slides and this site.
+- Two or three deliverables per gate instead of 50 to 60 checklist items.
+- Everything else became a menu of exercises, tagged by the kind of project it suits.
+- Deliverables appear at the top of each gate rather than the bottom.
+- A library of vetted sources, so teams can learn a tool at the moment they need it.
+
+## Library
+
+Vetted sources, grouped by what a team is trying to do.
+
+### Defining the problem
+- [Are You Solving the Right Problems?](https://hbr.org/2017/01/are-you-solving-the-right-problems) — Article, Harvard Business Review, Thomas Wedell-Wedellsborg. Seven ways to reframe a problem before you commit to solving it. Read it in week one.
+- [Issue Trees: What Are They and How Do You Use Them?](https://strategyu.co/issue-tree) — Article, StrategyU, Paul Millerd. How to break a question into branches, with worked examples. The clearest short guide we found.
+- [5 Whys](https://www.mindtools.com/a3mi00v/5-whys) — Article, MindTools, MindTools. Ten minutes. Turns a symptom into something the client could actually change.
+- [The Five Competitive Forces That Shape Strategy](https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy) — Article, Harvard Business Review, Michael E. Porter. Porter's own update, not a summary of it. Use it when industry structure is part of the problem.
+- [Powerful Problem Solving](https://www.powerful-problem-solving.com/) — Site, Powerful Problem Solving, Arnaud Chevallier, IMD. Short pieces on framing problems and building diagnostic trees. A second voice on the same tools.
+
+### Structuring and planning
+- [Problem Structuring and Hypothesis-Driven Consulting](https://thinkinsights.net/playbooks/problem-structuring-hypothesis-driven-consulting-playbook-issue-trees-mece) — Article, Think Insights, Think Insights. Issue tree versus hypothesis tree, and how to know when a branch is deep enough to stop.
+- [How to master the seven-step problem-solving process](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-to-master-the-seven-step-problem-solving-process) — Article, McKinsey Quarterly, McKinsey, 2019. The full arc from defining a problem to communicating the answer. Useful context for the whole model.
+- [Bulletproof Problem Solving](https://bulletproofproblemsolving.com/) — Book, Conn and McLean, Charles Conn and Robert McLean. Thirty worked examples of logic trees. Chapter 6 is a practical guide to picking an analysis.
+
+### Interviews, surveys and data
+- [User Interviews 101](https://www.nngroup.com/articles/user-interviews/) — Article, Nielsen Norman Group, Maria Rosala and Kara Pernice. How to plan, run and write up an interview so it produces evidence instead of opinions.
+- [The Surprising Power of Questions](https://hbr.org/2018/05/the-surprising-power-of-questions) — Article, Harvard Business Review, Alison Wood Brooks and Leslie K. John. Which questions get people to tell you what is really going on, and what order to ask them in.
+- [The Mom Test](https://www.momtestbook.com/) — Book, Rob Fitzpatrick, Rob Fitzpatrick. How to ask about past behavior rather than future promises. Essential if your client is a startup.
+- [Writing Survey Questions](https://www.pewresearch.org/our-methods/u-s-surveys/writing-survey-questions/) — Guide, Pew Research Center, Pew Research Center. Read this before a survey goes out. It will catch the leading and double-barreled questions.
+- [Reading and Understanding Financial Statements](https://online.hbs.edu/blog/post/how-to-read-financial-statements) — Article, HBS Online, Harvard Business School Online. Enough to size a problem in dollars and judge whether the client can afford your recommendation.
+
+### Story and slides
+- [The Minto Pyramid Principle](https://www.barbaraminto.com/) — Site, Barbara Minto, Barbara Minto. Where SCQA comes from. State the answer, then group the support beneath it.
+- [Consultant Explains the Pyramid Principle](https://www.youtube.com/watch?v=elMPIxLYtoc) — Video, Analyst Academy, Analyst Academy. Ten minutes, with slides on screen. The fastest way to see answer-first structure in action.
+- [How to Write Slide Action Titles](https://slideworks.io/resources/how-to-write-action-titles-like-mckinsey) — Article, Slideworks, Slideworks. The single habit that most improves a deck. Every title states the takeaway, not the topic.
+- [Storytelling with Data](https://www.storytellingwithdata.com/) — Site, Storytelling with Data, Cole Nussbaumer Knaflic. Before and after examples of real charts. Use it when a slide has data but no message.
+- [Structure Your Presentation Like a Story](https://hbr.org/2012/10/structure-your-presentation-li) — Article, Harvard Business Review, Nancy Duarte. What is, what could be, and the gap between. Useful when the deck is accurate but flat.
+
+### Options, risk and implementation
+- [7 Brainstorming Rules](https://www.ideou.com/blogs/inspiration/7-simple-rules-of-brainstorming) — Article, IDEO U, IDEO U. Rules that keep a team generating options instead of arguing about the first one.
+- [Decision Matrix Analysis](https://members.mindtools.com/a7ulyg2/decision-matrix-analysis) — Article, MindTools, MindTools. How to score options against weighted criteria without inventing precision you do not have.
+- [Performing a Project Premortem](https://hbr.org/2007/09/performing-a-project-premortem) — Article, Harvard Business Review, Gary Klein. A twenty-minute exercise that surfaces the risks nobody wants to raise in a normal meeting.
+- [Leading Change: Why Transformation Efforts Fail](https://hbr.org/2007/01/leading-change-why-transformation-efforts-fail) — Article, Harvard Business Review, John P. Kotter. Eight reasons good recommendations die after the consultants leave. A checklist for your sequencing.
+- [The Balanced Scorecard](https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2) — Article, Harvard Business Review, Robert Kaplan and David Norton. How to pick a handful of measures that cover more than finance.
+
+### Presenting and the client
+- [How to Give a Killer Presentation](https://hbr.org/2013/06/how-to-give-a-killer-presentation) — Article, Harvard Business Review, Chris Anderson, TED. Framing, delivery and rehearsal, from the person who coaches TED speakers.
+- [The Art of Giving and Receiving Advice](https://hbr.org/2015/01/the-art-of-giving-and-receiving-advice) — Article, Harvard Business Review, David Garvin and Joshua Margolis. Why good advice gets rejected. Read it as the client's side of the table.
+- [What Great Listeners Actually Do](https://hbr.org/2016/07/what-great-listeners-actually-do) — Article, Harvard Business Review, Jack Zenger and Joseph Folkman. Listening to understand rather than to reply, described as behaviors you can copy.
+
+### Working as a team
+- [The Discipline of Teams](https://hbr.org/1993/03/the-discipline-of-teams-2) — Article, Harvard Business Review, Jon Katzenbach and Douglas Smith. What separates a team from a group of people assigned to the same project.
+- [Building a Psychologically Safe Workplace](https://www.youtube.com/watch?v=LhoLuui9gX8) — Video, TEDxHGSE, Amy Edmondson, Harvard Business School. Eleven minutes on why teams that admit mistakes early outperform teams that do not.
+
+## Using AI on a CSG engagement
+
+Every gate page has a Copy AI prompt button. It puts a briefing on your clipboard that tells ChatGPT or Claude exactly what that gate requires, drawn from this site. Paste it into a new chat, fill in the two bracketed lines about your project, and edit it however you like.
+
+**One hard rule: never paste client data into an AI tool. No documents, financials, interview notes or anything else the client gave you. CSG's NDAs are real obligations. Describe the situation in general terms instead.**
+
+## About this file
+
+Generated from the site's own content file, so it always matches what the site says. Source: https://21crhodes1126-bot.github.io/csg-7rs/. Based on Paul Godfrey's 7Rs model (v1.4, July 2026); revised structure proposed by the 7Rs Team, Fall 2026. Last generated 2026-11-05.

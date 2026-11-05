@@ -1,5 +1,4 @@
 /* 7Rs content. Everything the site says lives in this file.
-   To attach a passing example to a deliverable, add: example: { title: "Team 10, Fall 2026", url: "https://…" }
    Structure: STAGES (four core R's) · GATES (five checkpoints) · HABITS (three spanning R's)
               PROCESS (the How it works page) · RESOURCES + TOPICS (the library) */
 
