@@ -501,15 +501,20 @@ main { min-height: calc(100vh - var(--head-h)); }
 /* The sidebar is shorter now that values moved to How it works */
 .gate-side { gap: 20px; }
 
-/* ---- Collapsible overview column on gate pages ---- */
-.gate-side { position: relative; }
-.side-toggle { position: absolute; top: -4px; right: 30px; width: 28px; height: 28px; border: 1px solid var(--rule-strong); border-radius: 50%; display: grid; place-items: center; background: #fff; color: var(--ink-3); font-size: 16px; line-height: 1; transition: border-color .15s, color .15s; z-index: 2; }
-.side-toggle:hover { border-color: var(--blue); color: var(--blue-text); }
-.gate.is-collapsed { grid-template-columns: 60px minmax(0, 1fr); }
-.gate.is-collapsed .gate-side > *:not(.side-toggle) { display: none; }
-.gate.is-collapsed .side-toggle { right: 14px; }
-.gate.is-collapsed .gate-main { max-width: 900px; margin-inline: auto; }
-@media (max-width: 900px) { .side-toggle { display: none; } .gate.is-collapsed { grid-template-columns: 1fr; } .gate.is-collapsed .gate-side > * { display: revert; } }
+/* ---- Collapsible overview column on gate pages ----
+   The column itself is sticky (set further up). The toggle is a handle sitting on
+   the divider line, in the same spot whether the column is open or closed.
+   Scoped to wide screens only: below 900px the column stacks into the page and
+   there is nothing to collapse. */
+.side-toggle { display: none; position: absolute; top: 26px; right: -13px; width: 26px; height: 26px; border: 1px solid var(--rule-strong); border-radius: 50%; place-items: center; background: #fff; color: var(--ink-3); font-size: 13px; line-height: 1; transition: border-color .15s, color .15s, background .15s; z-index: 3; }
+.side-toggle:hover { border-color: var(--blue); color: var(--blue-text); background: var(--blue-soft); }
+@media (min-width: 901px) {
+  .side-toggle { display: grid; }
+  .gate.is-collapsed { grid-template-columns: 54px minmax(0, 1fr); }
+  .gate.is-collapsed .gate-side { padding-right: 0; min-height: 220px; }
+  .gate.is-collapsed .gate-side > *:not(.side-toggle) { display: none; }
+  .gate.is-collapsed .gate-main { max-width: 920px; margin-inline: auto; }
+}
 
 /* ---- "Gates" label and hover descriptions in the header ---- */
 .stepper-label { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin-right: 12px; white-space: nowrap; }
