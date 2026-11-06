@@ -215,7 +215,8 @@ main { min-height: calc(100vh - var(--head-h)); }
 .gate::before { content: ""; position: absolute; top: 0; bottom: 80px; left: calc(var(--gutter-l) + var(--side-w)); width: 1px; background: var(--rule); pointer-events: none; }
 .gate-side, .gate-main { min-width: 0; }
 /* The side column is sized to fit one laptop screen; overflow only scrolls on very short windows. */
-.gate-side { position: sticky; top: calc(var(--head-h) + env(safe-area-inset-top, 0px)); align-self: start; max-height: calc(100vh - var(--head-h) - env(safe-area-inset-top, 0px)); overflow: auto; scrollbar-width: none; padding: 30px 36px 26px 0; display: flex; flex-direction: column; gap: 18px; }
+/* No overflow here: it would clip the collapse handle, which overhangs the edge. */
+.gate-side { position: sticky; top: calc(var(--head-h) + env(safe-area-inset-top, 0px)); align-self: start; padding: 30px 36px 26px 0; display: flex; flex-direction: column; gap: 18px; }
 .gate-side::-webkit-scrollbar { display: none; }
 .gate-side .where { font-size: 12.5px; color: var(--ink-3); display: flex; gap: 8px; align-items: center; }
 .gate-side .where b { color: var(--blue-text); font-weight: 600; }
@@ -245,12 +246,12 @@ main { min-height: calc(100vh - var(--head-h)); }
 .gate-main { padding: 36px 0 80px 52px; }
 .gate-main > section { padding-block: 8px 56px; scroll-margin-top: calc(var(--head-h) + 20px); }
 .gate-main > section + section { border-top: 1px solid var(--rule); padding-top: 48px; }
-.sec-head { display: grid; grid-template-columns: 56px 1fr; gap: 16px; align-items: baseline; margin-bottom: 22px; }
+.sec-head { display: grid; grid-template-columns: 40px 1fr; gap: 16px; align-items: baseline; margin-bottom: 22px; }
 .sec-head i { font-style: normal; font-family: var(--serif); font-size: 26px; color: var(--blue-text); line-height: 1; }
 .sec-head h2 { font-family: var(--serif); font-size: clamp(28px, 2.6vw, 36px); line-height: 1.05; }
 .sec-head p { grid-column: 2; color: var(--ink-3); font-size: 14.5px; margin-top: 6px; max-width: 70ch; }
 .sec-body { padding-left: 56px; }
-@media (max-width: 1100px) { .gate { grid-template-columns: 330px 1fr; } .gate-main { padding-left: 36px; } .sec-body { padding-left: 0; } }
+@media (max-width: 1100px) { .gate { --side-w: 330px; } .gate-main { padding-left: 36px; } }
 @media (max-width: 900px) {
   .gate { grid-template-columns: 1fr; }
   .gate::before { display: none; }
@@ -263,6 +264,7 @@ main { min-height: calc(100vh - var(--head-h)); }
   .gate-main { padding: 28px 0 60px; }
   .gate-main > section + section { padding-top: 36px; }
   .sec-head { grid-template-columns: 1fr; gap: 6px; } .sec-head p { grid-column: 1; }
+  .sec-body { padding-left: 0; }
 }
 
 .prose p { color: var(--ink-2); font-size: 17px; line-height: 1.6; max-width: 70ch; }
@@ -280,7 +282,7 @@ main { min-height: calc(100vh - var(--head-h)); }
 .ledger .good .t { font-size: 12.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 8px; }
 .ledger .good ul { display: grid; gap: 6px; }
 .ledger .good li { display: grid; grid-template-columns: 16px 1fr; gap: 8px; color: var(--ink-2); font-size: 14.5px; }
-.ledger .good li::before { content: ""; width: 8px; height: 8px; border: 1.5px solid var(--blue); border-radius: 50%; margin-top: 7px; }
+.ledger .good li::before { content: ""; width: 5px; height: 5px; background: var(--ink-3); border-radius: 50%; margin-top: 9px; }
 .ledger .check { position: relative; width: 28px; height: 28px; justify-self: end; margin-top: 6px; }
 .ledger .check input { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; margin: 0; }
 .ledger .check span { position: absolute; inset: 0; border: 1.5px solid var(--rule-strong); border-radius: 50%; display: grid; place-items: center; transition: all .15s; background: #fff; }
@@ -450,7 +452,7 @@ main { min-height: calc(100vh - var(--head-h)); }
 .settles .t { font-size: 12.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 8px; }
 .settles ul { border-top: 1px solid var(--rule-strong); }
 .settles li { display: grid; grid-template-columns: 18px 1fr; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 16px; font-weight: 500; max-width: 62ch; }
-.settles li::before { content: ""; width: 8px; height: 8px; border: 1.5px solid var(--blue); border-radius: 50%; margin-top: 8px; }
+.settles li::before { content: ""; width: 5px; height: 5px; background: var(--blue); border-radius: 50%; margin-top: 9px; }
 
 /* Self-check note inside the grey review box */
 .asks .note { font-size: 13.5px; color: var(--ink-3); margin: -4px 0 12px; font-weight: 400; }

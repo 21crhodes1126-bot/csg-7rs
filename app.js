@@ -104,7 +104,7 @@
       </div></section>
 
       <section class="strip"><div class="wrap">
-        <div class="item"><div class="big">20<em>′</em></div><h3>Gate review</h3><p>A working session with your faculty advisor. The questions are published on every gate. <a href="#how">How it works →</a></p></div>
+        <div class="item"><div class="big">20–30<em>′</em></div><h3>Gate review</h3><p>A working session with your faculty advisor. The questions are published on every gate. <a href="#how">How it works →</a></p></div>
         <div class="item"><div class="big"><em>You</em></div><h3>Choose the method</h3><p>The exercises are a menu, tagged by the kind of project you are running.</p></div>
         <div class="item"><div class="big">1</div><h3>Result</h3><p>A recommendation the client understands, owns and acts on. Everything here points at that.</p></div>
       </div></section>`;
@@ -218,7 +218,7 @@
 
           <section id="tools">
             <div class="sec-head"><i>4</i><h2>Learn the tools</h2><p>The few that matter most here. The full set lives in the <a href="#library">library</a>.</p></div>
-            <div class="sec-body lib">${g.learn.map(libRow).join("")}</div>
+            <div class="sec-body"><div class="lib">${g.learn.map(libRow).join("")}</div></div>
           </section>
 
           <nav class="pager" aria-label="Gate navigation">
