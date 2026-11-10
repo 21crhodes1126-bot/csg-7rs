@@ -26,7 +26,7 @@ const RESOURCES = {
   duarteStory: { type: "Article", source: "Harvard Business Review", title: "Structure Your Presentation Like a Story", author: "Nancy Duarte", url: "https://hbr.org/2012/10/structure-your-presentation-li", why: "What is, what could be, and the gap between. Useful when the deck is accurate but flat.", topic: "story" },
 
   ideo: { type: "Article", source: "IDEO U", title: "7 Brainstorming Rules", author: "IDEO U", url: "https://www.ideou.com/blogs/inspiration/7-simple-rules-of-brainstorming", why: "Rules that keep a team generating options instead of arguing about the first one.", topic: "recommend" },
-  decisionMatrix: { type: "Article", source: "MindTools", title: "Decision Matrix Analysis", author: "MindTools", url: "https://members.mindtools.com/a7ulyg2/decision-matrix-analysis", why: "How to score options against weighted criteria without inventing precision you do not have.", topic: "recommend" },
+  decisionMatrix: { type: "Article", source: "ASQ", title: "What Is a Decision Matrix?", author: "American Society for Quality", url: "https://asq.org/quality-resources/decision-matrix", why: "How to score options against weighted criteria without inventing precision you do not have.", topic: "recommend" },
   premortem: { type: "Article", source: "Harvard Business Review", title: "Performing a Project Premortem", author: "Gary Klein", url: "https://hbr.org/2007/09/performing-a-project-premortem", why: "A twenty-minute exercise that surfaces the risks nobody wants to raise in a normal meeting.", topic: "recommend" },
   kotter: { type: "Article", source: "Harvard Business Review", title: "Leading Change: Why Transformation Efforts Fail", author: "John P. Kotter", url: "https://hbr.org/2007/01/leading-change-why-transformation-efforts-fail", why: "Eight reasons good recommendations die after the consultants leave. A checklist for your sequencing.", topic: "recommend" },
   scorecard: { type: "Article", source: "Harvard Business Review", title: "The Balanced Scorecard", author: "Robert Kaplan and David Norton", url: "https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2", why: "How to pick a handful of measures that cover more than finance.", topic: "recommend" },
@@ -202,7 +202,7 @@ const GATES = [
     exercises: [
       { h: "Brainstorm wide before judging anything", fit: "Every project", p: "Forty-five minutes with IDEO's rules. Defer judgment, go for volume, then cluster into five or six options that truly differ.", res: ["ideo"] },
       { h: "Draw the lines from findings to options", fit: "Every project", p: "Findings on the left, options on the right, lines between. Options with no line get cut or parked." },
-      { h: "Place the options on impact against capacity", fit: "Every project", p: "Will it solve the problem, and can this organisation actually do it? Argue the placements as a team before showing the client.", res: ["decisionMatrix"] },
+      { h: "Place the options on impact against capacity", fit: "Every project", p: "Will it solve the problem, and can this organization actually do it? Argue the placements as a team before showing the client.", res: ["decisionMatrix"] },
       { h: "Pre-mortem the leading option", fit: "Every project", p: "A year from now it failed. Why? The strongest answers become your risk slide.", res: ["premortem"] },
       { h: "Check sponsorship and sequence", fit: "Every project", p: "Who has to say yes, who has to change what they do, and in what order you are asking for it.", res: ["kotter"] },
       { h: "Design two or three measures per recommendation", fit: "Every project", p: "A baseline, a target, and a date to check. Say so if tracking it needs a system the client does not have.", res: ["scorecard"] },
@@ -252,7 +252,7 @@ const HABITS = [
     key: "roles", name: "Roles", full: "Team roles and responsibilities",
     lead: "A good process does not rescue a team that has not decided who does what. CSG teams use five working roles. One person can hold two, and they can rotate, but every role needs a name beside it from the first week.",
     roles: [
-      ["Project Manager", "The workplan, the gate submissions and the stand-up. Keeps Today's Answer current."],
+      ["Project Manager", "The workplan, the gate reviews and the stand-up. Keeps Today's Answer current."],
       ["Client Relationship Manager", "The meeting cadence, the agenda, and the client's experience of the team."],
       ["Deck Master", "The ghost deck and the story. Guards the template and the action titles."],
       ["Data Guru", "Data requests, the master files, and the sanity checks."],
@@ -327,7 +327,7 @@ const PROCESS = {
     ],
     During: [
       "Twenty to thirty minutes. You walk through the deliverables and your advisor asks whether they hold up.",
-      "It is a working session. If a question exposes a gap, say so. Naming it counts in your favour.",
+      "It is a working session. If a question exposes a gap, say so. Naming it counts in your favor.",
       "You leave with one of three outcomes: carry on, carry on with specific fixes, or revise and come back. None of them is a grade.",
     ],
     After: [
@@ -346,7 +346,7 @@ const PROCESS = {
   ],
 
   values: {
-    lead: "CSG has four values, each expressed through two behaviours. They are not decoration on this process. They are how the work gets judged, in your reviews and by the client.",
+    lead: "CSG has four values, each expressed through two behaviors. They are not decoration on this process. They are how the work gets judged, in your reviews and by the client.",
     rows: [
       ["Christ-Centered", "Be teachable · Have integrity", "Ask for help early. Never present a number you have not checked yourself."],
       ["Accountable", "Take ownership · Be transparent", "Every workstream has a name on it, and the client hears bad news from you first."],
@@ -378,5 +378,5 @@ const PROCESS = {
 const AI_INTRO = {
   title: "Working with AI",
   lead: "Every gate page has a Copy AI prompt button. It puts a briefing on your clipboard that tells ChatGPT or Claude exactly what that gate requires, drawn from this site. Paste it into a new chat, fill in the two bracketed lines about your project, and edit it however you like.",
-  rule: "One hard rule: never paste client data into an AI tool. No documents, financials, interview notes or anything else the client gave you. CSG's NDAs are real obligations. Describe the situation in general terms instead.",
+  rule: "Never paste client data into an AI tool. No documents, financials, interview notes or anything else the client gave you. CSG's NDAs are real obligations. Describe the situation in general terms instead.",
 };

@@ -271,12 +271,19 @@
     /* section nav: smooth scroll + scroll-spy */
     const links = [...app.querySelectorAll(".secnav a")];
     links.forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); document.getElementById(a.dataset.sec).scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "start" }); }));
-    const io = new IntersectionObserver((entries) => {
-      const vis = entries.filter((x) => x.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
-      if (vis) links.forEach((a) => a.classList.toggle("is-on", a.dataset.sec === vis.target.id));
-    }, { rootMargin: "-20% 0px -60% 0px", threshold: 0 });
-    sections.forEach(([id]) => io.observe(document.getElementById(id)));
-    links[0].classList.add("is-on");
+    /* The current section is the last one whose heading has passed a line 30% down the window.
+       Worked out from position on every scroll, so it cannot go stale when the reader reverses. */
+    const secEls = sections.map(([id]) => document.getElementById(id));
+    const markSection = () => {
+      const line = window.innerHeight * 0.3;
+      let cur = secEls[0];
+      secEls.forEach((el) => { if (el.getBoundingClientRect().top <= line) cur = el; });
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) cur = secEls[secEls.length - 1];
+      links.forEach((a) => a.classList.toggle("is-on", a.dataset.sec === cur.id));
+    };
+    window.addEventListener("scroll", markSection, { passive: true });
+    spy = { disconnect: () => window.removeEventListener("scroll", markSection) };
+    markSection();
   }
 
   /* ---------- Habits ---------- */
@@ -353,7 +360,9 @@
   }
 
   /* ---------- Router ---------- */
+  let spy = null; /* the gate page's scroll tracker; stopped whenever the page changes */
   function route() {
+    if (spy) { spy.disconnect(); spy = null; }
     const h = (location.hash || "#home").slice(1).replace(/[^a-z0-9]/gi, "");
     const g = gateByKey(h);
     if (g) renderGate(g);

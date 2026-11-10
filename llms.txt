@@ -192,7 +192,7 @@ A gate is a checkpoint between two stages, not an exam. A team shows its faculty
 **Exercises that help.** None are required. They are a menu, tagged by the kind of project.
 - Brainstorm wide before judging anything (Every project). Forty-five minutes with IDEO's rules. Defer judgment, go for volume, then cluster into five or six options that truly differ.
 - Draw the lines from findings to options (Every project). Findings on the left, options on the right, lines between. Options with no line get cut or parked.
-- Place the options on impact against capacity (Every project). Will it solve the problem, and can this organisation actually do it? Argue the placements as a team before showing the client.
+- Place the options on impact against capacity (Every project). Will it solve the problem, and can this organization actually do it? Argue the placements as a team before showing the client.
 - Pre-mortem the leading option (Every project). A year from now it failed. Why? The strongest answers become your risk slide.
 - Check sponsorship and sequence (Every project). Who has to say yes, who has to change what they do, and in what order you are asking for it.
 - Design two or three measures per recommendation (Every project). A baseline, a target, and a date to check. Say so if tracking it needs a system the client does not have.
@@ -200,7 +200,7 @@ A gate is a checkpoint between two stages, not an exam. A team shows its faculty
 - Present to another CSG team (Every project). Ask them to say the recommendation back to you. If they cannot, the story is not finished.
 - Read the titles aloud one last time (Every project). Problem, proof, prescription, in that order, with no gaps.
 
-**Most relevant reading:** 7 Brainstorming Rules (IDEO U); Decision Matrix Analysis (MindTools); Leading Change: Why Transformation Efforts Fail (Harvard Business Review); The Balanced Scorecard (Harvard Business Review).
+**Most relevant reading:** 7 Brainstorming Rules (IDEO U); What Is a Decision Matrix? (ASQ); Leading Change: Why Transformation Efforts Fail (Harvard Business Review); The Balanced Scorecard (Harvard Business Review).
 
 ### Gate 5: Deliver and stay
 
@@ -250,7 +250,7 @@ These are not stages. They run through all four stages, and a reviewer looks for
 A good process does not rescue a team that has not decided who does what. CSG teams use five working roles. One person can hold two, and they can rotate, but every role needs a name beside it from the first week.
 
 Roles:
-- **Project Manager**: The workplan, the gate submissions and the stand-up. Keeps Today's Answer current.
+- **Project Manager**: The workplan, the gate reviews and the stand-up. Keeps Today's Answer current.
 - **Client Relationship Manager**: The meeting cadence, the agenda, and the client's experience of the team.
 - **Deck Master**: The ghost deck and the story. Guards the template and the action titles.
 - **Data Guru**: Data requests, the master files, and the sanity checks.
@@ -315,7 +315,7 @@ Before:
 
 During:
 - Twenty to thirty minutes. You walk through the deliverables and your advisor asks whether they hold up.
-- It is a working session. If a question exposes a gap, say so. Naming it counts in your favour.
+- It is a working session. If a question exposes a gap, say so. Naming it counts in your favor.
 - You leave with one of three outcomes: carry on, carry on with specific fixes, or revise and come back. None of them is a grade.
 
 After:
@@ -333,7 +333,7 @@ After:
 
 ## How CSG's values show up
 
-CSG has four values, each expressed through two behaviours. They are not decoration on this process. They are how the work gets judged, in your reviews and by the client.
+CSG has four values, each expressed through two behaviors. They are not decoration on this process. They are how the work gets judged, in your reviews and by the client.
 
 - **Christ-Centered** (Be teachable · Have integrity) — Ask for help early. Never present a number you have not checked yourself.
 - **Accountable** (Take ownership · Be transparent) — Every workstream has a name on it, and the client hears bad news from you first.
@@ -400,7 +400,7 @@ Vetted sources, grouped by what a team is trying to do.
 
 ### Options, risk and implementation
 - [7 Brainstorming Rules](https://www.ideou.com/blogs/inspiration/7-simple-rules-of-brainstorming) — Article, IDEO U, IDEO U. Rules that keep a team generating options instead of arguing about the first one.
-- [Decision Matrix Analysis](https://members.mindtools.com/a7ulyg2/decision-matrix-analysis) — Article, MindTools, MindTools. How to score options against weighted criteria without inventing precision you do not have.
+- [What Is a Decision Matrix?](https://asq.org/quality-resources/decision-matrix) — Article, ASQ, American Society for Quality. How to score options against weighted criteria without inventing precision you do not have.
 - [Performing a Project Premortem](https://hbr.org/2007/09/performing-a-project-premortem) — Article, Harvard Business Review, Gary Klein. A twenty-minute exercise that surfaces the risks nobody wants to raise in a normal meeting.
 - [Leading Change: Why Transformation Efforts Fail](https://hbr.org/2007/01/leading-change-why-transformation-efforts-fail) — Article, Harvard Business Review, John P. Kotter. Eight reasons good recommendations die after the consultants leave. A checklist for your sequencing.
 - [The Balanced Scorecard](https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2) — Article, Harvard Business Review, Robert Kaplan and David Norton. How to pick a handful of measures that cover more than finance.
@@ -418,8 +418,8 @@ Vetted sources, grouped by what a team is trying to do.
 
 Every gate page has a Copy AI prompt button. It puts a briefing on your clipboard that tells ChatGPT or Claude exactly what that gate requires, drawn from this site. Paste it into a new chat, fill in the two bracketed lines about your project, and edit it however you like.
 
-**One hard rule: never paste client data into an AI tool. No documents, financials, interview notes or anything else the client gave you. CSG's NDAs are real obligations. Describe the situation in general terms instead.**
+**One hard rule.** Never paste client data into an AI tool. No documents, financials, interview notes or anything else the client gave you. CSG's NDAs are real obligations. Describe the situation in general terms instead.
 
 ## About this file
 
-Generated from the site's own content file, so it always matches what the site says. Source: https://21crhodes1126-bot.github.io/csg-7rs/. Based on Paul Godfrey's 7Rs model (v1.4, July 2026); revised structure proposed by the 7Rs Team, Fall 2026. Last generated 2026-11-05.
+Generated from the site's own content file, so it always matches what the site says. Source: https://21crhodes1126-bot.github.io/csg-7rs/. Based on Paul Godfrey's 7Rs model (v1.4, July 2026); revised structure proposed by the 7Rs Team, Fall 2026. Last generated 2026-11-10.

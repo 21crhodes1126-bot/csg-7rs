@@ -143,7 +143,7 @@ p(`## Using AI on a CSG engagement`);
 p();
 p(c.AI_INTRO.lead);
 p();
-p(`**${c.AI_INTRO.rule}**`);
+p(`**One hard rule.** ${c.AI_INTRO.rule}`);
 p();
 
 p(`## About this file`);
