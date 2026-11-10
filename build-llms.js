@@ -40,7 +40,7 @@ p();
 
 p(`## The arc at a glance`);
 p();
-p(`Roughly 12 to 15 weeks end to end. Stage 1 is the one that cannot slip; everything after it moves when the problem is not defined.`);
+p(`About 12 weeks end to end for MBA teams and 13 for EMBA. Stage 1 is the one that cannot slip; everything after it moves when the problem is not defined.`);
 p();
 c.STAGES.forEach((st) => {
   p(`**Stage ${st.num} · ${st.name}** (${st.weeks}) — ${st.tagline}`);

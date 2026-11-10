@@ -320,7 +320,7 @@
 
       <section><div class="sec-head"><i>1</i><h2>The whole process, start to finish</h2></div>
         <div class="overview">${overview}</div>
-        <p class="ov-foot">Roughly 12 to 15 weeks end to end. Stage 1 is the one that cannot slip; everything after it moves when the problem is not defined.</p>
+        <p class="ov-foot">About 12 weeks end to end for MBA teams and 13 for EMBA. Stage 1 is the one that cannot slip; everything after it moves when the problem is not defined.</p>
       </section>
 
       <section><div class="sec-head"><i>2</i><h2>What a gate is</h2></div>

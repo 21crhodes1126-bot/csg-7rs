@@ -321,12 +321,12 @@ const PROCESS = {
 
   review: {
     Before: [
-      "Share the deliverables with your advisor at least a day ahead.",
+      "Share your work with your advisor at least a day ahead.",
       "Decide who presents what. Anyone on the team should be able to answer for the whole.",
       "Work through the gate's questions together. If you can all answer them, you are ready.",
     ],
     During: [
-      "Twenty to thirty minutes. You walk through the deliverables and your advisor asks whether they hold up.",
+      "Twenty to thirty minutes. You walk through what you have worked out and your advisor asks whether it holds up.",
       "It is a working session. If a question exposes a gap, say so. Naming it counts in your favor.",
       "You leave with one of three outcomes: carry on, carry on with specific fixes, or revise and come back. None of them is a grade.",
     ],
@@ -357,8 +357,8 @@ const PROCESS = {
 
   faq: [
     ["Who reviews the gates?", "Whichever faculty advisor is assigned to your engagement, Paul or Troy. They are also the first call when the team is stuck between gates."],
-    ["What if our project does not fit a deliverable?", "Say so before the gate rather than at it. Propose the equivalent that does fit, a decision tree in place of an issue tree for instance, and agree it with your advisor. The form can flex. What a reviewer needs to see cannot."],
-    ["Do we have to do the exercises?", "No. Use the project-type filter on each gate page, and skip anything that would not change your deliverables."],
+    ["What if a suggested form does not fit our project?", "Say so before the gate rather than at it. Propose the equivalent that does fit, a decision tree in place of an issue tree for instance, and agree it with your advisor. The form can flex. What a reviewer needs to see cannot."],
+    ["Do we have to do the exercises?", "No. Use the project-type filter on each gate page, and skip anything that would not change your answer."],
     ["Can we work ahead?", "Yes, as long as you do not skip a gate. Teams often start the ghost deck during Stage 1. What you cannot do is build Stage 3 analysis on a problem statement nobody has reviewed."],
     ["What if we are asked to revise?", "You revise and come back, usually within a few days. Catching it at a gate costs far less than discovering it three weeks later."],
     ["Where do the documents live?", "In your team's channel in Teams, under the folder structure you agreed at Gate 1, following CSG file naming. Never in a personal drive."],
@@ -366,9 +366,9 @@ const PROCESS = {
 
   changed: [
     "Five gates with one set of numbers, matching across the slides and this site.",
-    "Two or three deliverables per gate instead of 50 to 60 checklist items.",
+    "A short list of what you should have at each gate, instead of 50 to 60 checklist items.",
     "Everything else became a menu of exercises, tagged by the kind of project it suits.",
-    "Deliverables appear at the top of each gate rather than the bottom.",
+    "What you should have sits at the top of each gate rather than the bottom.",
     "A library of vetted sources, so teams can learn a tool at the moment they need it.",
   ],
 };
